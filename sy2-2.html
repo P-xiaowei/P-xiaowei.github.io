@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>two</title>
+    <style type="text/css">
+        table {
+            width: 800px;
+            border-top: 1px solid #999;
+            border-left: 1px solid #999;
+            border-spacing: 0;
+            border-color: #779dbd;
+            font-family: 华文楷体;
+            font-weight:bolder;
+            cellpadding:"3";
+            cellspacing:"2";
+        }
+        table td {
+            padding: 10px 30px;
+            border-bottom: 1px solid #999;
+            border-right: 1px solid #999;
+            border-color: #779dbd;
+        }
+    </style>
+</head>
+<body>
+<form action="" method="post" name="form1">
+<table align="center">
+    <tr>
+        <td width="100" height="20" align="center">姓名：</td>
+        <td width="400" height="20" align="left">
+            <input type="text"name="username"size="21"maxlength="20"/>*
+        </td>
+    </tr>
+    <tr>
+        <td width="100" height="20" align="center">性别：</td>
+        <td width="400" height="20" align="left">
+            <input type="radio" name="sex" value="男" checked /> 男
+            <input type="radio" name="sex" value="女" /> 女    *
+        </td>
+    </tr>
+    <tr>
+        <td width="100" height="20" align="center">出生日期：</td>
+        <td width="400" height="20" align="left">
+            <input type="text"name="username"size="8"maxlength="8"/>年
+            <input type="text"name="username"size="4"maxlength="4"/>月
+            <input type="text"name="username"size="4"maxlength="8"/>日*
+        </td>
+    </tr>
+    <tr>
+        <td width="100" height="20" align="center">文化程度：</td>
+        <td width="400" height="20" align="left">
+            <select name="education">
+                <option value="小学">小学</option>
+                <option value="初中">初中</option>
+                <option value="高中" selected>高中</option>
+                <option value="中专">中专</option>
+                <option value="大学">大学</option>
+                <option value="研究生">研究生</option>
+                <option value="博士">博士</option>
+            </select>*
+        </td>
+    </tr>
+    <tr>
+        <td width="100" height="20" align="center">所在省份：</td>
+        <td width="400" height="20" align="left">
+            <select name="province">
+                <option value="北京" selected>北京</option>
+                <option value="天津">天津</option>
+                <option value="上海">上海</option>
+                <option value="重庆">重庆</option>
+                <option value="河北">河北</option>
+                <option value="山西">山西</option>
+                <option value="辽宁">辽宁</option>
+                <option value="吉林">吉林</option>
+                <option value="黑龙江">黑龙江</option>
+                <option value="江苏">江苏</option>
+                <option value="浙江">浙江</option>
+                <option value="安徽">安徽</option>
+                <option value="福建">福建</option>
+                <option value="江西">江西</option>
+                <option value="山东">山东</option>
+                <option value="河南">河南</option>
+                <option value="湖北">湖北</option>
+                <option value="湖南">湖南</option>
+                <option value="广东">广东</option>
+                <option value="海南">海南</option>
+                <option value="四川">四川</option>
+                <option value="贵州">贵州</option>
+                <option value="云南">云南</option>
+                <option value="陕西">陕西</option>
+                <option value="甘肃">甘肃</option>
+                <option value="青海">青海</option>
+                <option value="台湾">台湾</option>
+                <option value="内蒙古">内蒙古</option>
+                <option value="广西">广西</option>
+                <option value="西藏">西藏</option>
+                <option value="宁夏">宁夏</option>
+                <option value="新疆">新疆</option>
+                <option value="香港">香港</option>
+                <option value="澳门">澳门</option>
+            </select>*
+        </td>
+    </tr>
+    <tr>
+        <td width="100" height="20" align="center">联系地址：</td>
+        <td width="400" height="20" align="left">
+            <input type="text"name="address"size="40"maxlength="40"/>*
+        </td>
+    </tr>
+    <tr>
+        <td width="100" height="20" align="center">邮政编码：</td>
+        <td width="400" height="20" align="left">
+            <input type="text"name="postal code"size="40"maxlength="40"/>*
+        </td>
+    </tr>
+    <tr>
+        <td width="100" height="20" align="center">电话号码：</td>
+        <td width="400" height="20" align="left">
+            <input type="text"name="telephone"size="40"maxlength="40"/>*
+        </td>
+    </tr>
+    <tr>
+        <td width="100" height="20" align="center">电子邮箱：</td>
+        <td width="400" height="20" align="left">
+            <input type="email" name="email" size="40" maxlength="40"/>
+        </td>
+    </tr>
+    <tr>
+        <td width="100" height="20" align="center">类别：</td>
+        <td width="400" height="20" align="left">
+            <select name="category">
+                <option value="脱产">脱产</option>
+                <option value="业余">业余</option>
+                <option value="函授" selected>函授</option>
+            </select>*
+        </td>
+    </tr>
+    <tr>
+        <td width="100" height="20" align="center">报考层次：</td>
+        <td width="400" height="20" align="left">
+            <select name="Applying Layer">
+                <option value="初级">初级</option>
+                <option value="中级">中级</option>
+                <option value="高级" selected>高级</option>
+            </select>*
+        </td>
+    </tr>
+    <tr>
+        <td width="100" height="20" align="center">报考专业：</td>
+        <td width="400" height="20" align="left">
+            <select name="Applying Major">
+                <option value="出版专业职业资格考试">出版专业职业资格考试</option>
+                <option value="初级注册会计考试">初级注册会计考试</option>
+                <option value="国家摄影师等级考评" selected>国家摄影师等级考评</option>
+            </select>*
+        </td>
+    </tr>
+    <tr>
+        <td width="100" height="20" align="center">备注：</td>
+        <td width="400" height="20" align="left">
+            <textarea name="talk" clos="80" rows="4" size="40"></textarea>
+        </td>
+    </tr>
+    <tr>
+        <td></td>
+        <td height="20" colspan="4">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" name="Submit" value="提交"/>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="reset" name="Submit2" value="重写"/>
+        </td>
+    </tr>
+</table>
+</form>
+</body>
+
+</html>
