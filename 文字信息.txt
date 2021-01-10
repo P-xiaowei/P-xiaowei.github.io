@@ -1,0 +1,28 @@
+1、menu导航信息
+
+首页     博客       设计      相册      论坛     关于
+
+
+2、sidebar左侧
+
+（1）站点信息
+访问：6562 次在线：12 人会员：3244 人留言：3216 个
+建站：2006/03/20
+（2）页面标准
+
+3、content右侧
+
+(1)
+风格名称：Red Vision设计作者：郑木头CSS 
+制作：番茄红了
+发布时间：2005/11/04演示地址：http://www.tblog.com.cn风格简介：此风格设计来自网友“郑木头”，由PJBLOG团队（番茄红了、舜子）共同完成,在此感谢“郑木头”提供的设计风格。
+(2)
+风格名称：Dawn(黎明)设计作者：番茄红了CSS 
+制作：番茄红了发布时间：2005/09/19演示地址：http://www.tblog.com.cn
+风格简介：本SKIN适用于PJBLOG2　V2.3版本。本SKIN经测试完全兼容IE、Mozilla Firefox浏览器。建议在1024X768下浏览。
+
+
+4、footer版权导航
+
+Copyright 2009 wangminghui.com All Rights Reserved    xhtml | css
+湘ICP备06001797号
